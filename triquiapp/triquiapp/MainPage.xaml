@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="triquiapp.MainPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button x:Name="camp1" Clicked="camp1_Clicked" ></Button>
+        <Button x:Name="camp2" Grid.Column="1" Clicked="camp2_Clicked" ></Button>
+        <Button x:Name="camp3" Grid.Column="2" Clicked="camp3_Clicked" ></Button>
+        <Button x:Name="camp4" Grid.Column="0" Grid.Row="1"  Clicked="camp4_Clicked" ></Button>
+        <Button x:Name="camp5" Grid.Column="1" Grid.Row="1" Clicked="camp5_Clicked"></Button>
+        <Button x:Name="camp6" Grid.Column="2" Grid.Row="1" Clicked="camp6_Clicked"></Button>
+        <Button x:Name="camp7" Grid.Column="0" Grid.Row="2" Clicked="camp7_Clicked"></Button>
+        <Button x:Name="camp8" Grid.Column="1" Grid.Row="2" Clicked="camp8_Clicked"></Button>
+        <Button x:Name="camp9" Grid.Column="2" Grid.Row="2" Clicked="camp9_Clicked"></Button>
+        
+    </Grid>
+
+</ContentPage>
